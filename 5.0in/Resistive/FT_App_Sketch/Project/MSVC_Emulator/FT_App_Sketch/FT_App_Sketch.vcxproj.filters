@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Src\FT_App_Sketch.c" />
+    <ClCompile Include="..\..\..\Src\FT_CoPro_Cmds.c" />
+    <ClCompile Include="..\..\..\Src\FT_Emu_main.cpp" />
+    <ClCompile Include="..\..\..\Src\FT_Gpu_Hal.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Hdr\FT_CoPro_Cmds.h" />
+    <ClInclude Include="..\..\..\Hdr\FT_Font_Table.h" />
+    <ClInclude Include="..\..\..\Hdr\FT_Gpu.h" />
+    <ClInclude Include="..\..\..\Hdr\FT_Gpu_Hal.h" />
+    <ClInclude Include="..\..\..\Hdr\FT_Hal_Utils.h" />
+    <ClInclude Include="..\..\..\Hdr\MSVC_Emulator\FT_Platform.h" />
+    <ClInclude Include="..\..\..\Hdr\MSVC_Emulator\FT_DataTypes.h" />
+    <ClInclude Include="..\..\..\Hdr\MSVC_Emulator\FT_Emulator.h" />
+    <ClInclude Include="..\..\..\Hdr\MSVC_Emulator\FT_EmulatorMain.h" />
+  </ItemGroup>
+</Project>
